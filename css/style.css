@@ -1,0 +1,111 @@
+/*
+Especificação Técnica: Website de Portfólio Estático
+Versão: 1.2
+Guia de Estilo e Customizações
+*/
+
+/* 3.1. Paleta de Cores (Dark Mode) */
+:root {
+    --cor-primaria: #212529; /* Cinza escuro/quase preto */
+    --cor-secundaria: #F59E0B; /* Laranja/Âmbar */
+    --cor-destaque: #6c757d;   /* Cinza claro para contraste */
+    --cor-texto: #f8f9fa;      /* Branco ou branco acinzentado */
+}
+
+/* 3.2. Tipografia */
+body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    color: var(--cor-texto);
+    background-color: var(--cor-primaria);
+    padding-top: 56px; /* Ajuste para a navbar fixa */
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-weight: 700; /* Títulos com peso maior */
+}
+
+/* 3.3. Estilo Geral e Customização de Componentes */
+
+/* Seção de Início (Hero) */
+#inicio {
+    background-color: var(--cor-primaria);
+}
+
+/* Botões */
+.btn-primary {
+    background-color: var(--cor-secundaria);
+    border-color: var(--cor-secundaria);
+    color: #fff;
+}
+
+.btn-primary:hover {
+    background-color: #d98c0a;
+    border-color: #d98c0a;
+}
+
+.btn-secondary {
+    background-color: var(--cor-destaque);
+    border-color: var(--cor-destaque);
+}
+
+.btn-secondary:hover {
+    background-color: #5a6268;
+    border-color: #545b62;
+}
+
+/* Cards de Projeto */
+.card {
+    background-color: #2a2f34; /* Um tom ligeiramente mais claro que o fundo */
+    border: 1px solid var(--cor-destaque);
+    border-radius: 0.5rem; /* Cantos arredondados */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.card-title {
+    color: var(--cor-secundaria);
+}
+
+/* Seção Educacional */
+#educacional {
+    background-color: var(--cor-primaria); /* Mantendo o fundo escuro */
+}
+
+#educacional h2 {
+     color: var(--cor-texto);
+}
+
+.list-group-item {
+    background-color: #2a2f34;
+    border-color: var(--cor-destaque);
+    color: var(--cor-texto);
+}
+
+.list-group-item-action:hover, .list-group-item-action:focus {
+    background-color: #343a40;
+    color: var(--cor-texto);
+}
+
+.list-group-item h5 {
+    color: var(--cor-secundaria);
+}
+
+/* Rodapé */
+footer a {
+    color: var(--cor-secundaria) !important;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+/* Barra de Navegação */
+.navbar-dark .navbar-nav .nav-link.active,
+.navbar-dark .navbar-nav .nav-link:hover {
+    color: var(--cor-secundaria);
+}
+
+.navbar-dark .navbar-brand {
+    color: var(--cor-secundaria);
+    font-weight: 700;
+}
