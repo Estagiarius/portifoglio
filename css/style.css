@@ -17,6 +17,9 @@ body {
     font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
     color: var(--cor-texto);
     background-color: var(--cor-primaria);
+}
+
+.body-padding-top {
     padding-top: 56px; /* Ajuste para a navbar fixa */
 }
 
