@@ -68,6 +68,10 @@ h1, h2, h3, h4, h5, h6 {
     color: var(--cor-secundaria);
 }
 
+.card-text {
+    color: var(--cor-texto);
+}
+
 /* Seção Educacional */
 #educacional {
     background-color: var(--cor-primaria); /* Mantendo o fundo escuro */
@@ -90,6 +94,10 @@ h1, h2, h3, h4, h5, h6 {
 
 .list-group-item h5 {
     color: var(--cor-secundaria);
+}
+
+.list-group-item p {
+    color: var(--cor-texto);
 }
 
 /* Rodapé */
